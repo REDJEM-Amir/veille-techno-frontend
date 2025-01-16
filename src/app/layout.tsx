@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "../globals.css";
+import Sidebar from "@/components/sidebar";
+import Board from "@/components/board";
 
 export const metadata: Metadata = {
-  title: "Veille techno frontend",
+  title: "Tableaux | Trello",
   description: "",
 };
 
@@ -12,9 +14,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-white">
       <body>
-        {children}
+        <Sidebar />
+        <main className="relative flex w-full h-full bg-[#8f3f64]">
+          <Board />
+          {children}
+        </main>
       </body>
     </html>
   );
