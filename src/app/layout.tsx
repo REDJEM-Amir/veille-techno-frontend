@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" className="bg-white">
       <body>
         <Sidebar />
-        <main className="relative flex w-full h-full bg-[#8f3f64]">
+        <main className="relative flex w-full h-[calc(100vh-3rem)] bg-[#8f3f64]">
           <Board />
           {children}
         </main>

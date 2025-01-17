@@ -3,7 +3,7 @@ import { BsStars } from 'react-icons/bs'
 import { CgMenuGridO } from 'react-icons/cg'
 import { FaTrello } from 'react-icons/fa'
 import { FiBell, FiHelpCircle } from 'react-icons/fi'
-import { IoIosArrowDown, IoIosSearch } from 'react-icons/io'
+import { IoIosArrowDown } from 'react-icons/io'
 import { IoSearchOutline } from 'react-icons/io5'
 
 export default function Sidebar() {
